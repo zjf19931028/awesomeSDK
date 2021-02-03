@@ -1,4 +1,4 @@
-package com.awesomesdk.util;
+package com.zjingf.awesomesdk.util;
 
 import android.content.Context;
 import android.widget.Toast;
