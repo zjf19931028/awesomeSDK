@@ -1,2 +1,3 @@
+include ':awesomesdk'
 include ':app'
 rootProject.name = "awesomeSDK"
