@@ -1,5 +1,5 @@
-apply plugin:'com.android.library'
-apply plugin:'com.github.dcendents.android-maven'
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.zjf19931028'  //注意com.github.后面的为github账号
 
 android {
