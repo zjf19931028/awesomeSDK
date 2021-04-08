@@ -1,4 +1,4 @@
-package com.zjingf.awesomesdk;
+package com.awesome.sdk;
 
 import org.junit.Test;
 

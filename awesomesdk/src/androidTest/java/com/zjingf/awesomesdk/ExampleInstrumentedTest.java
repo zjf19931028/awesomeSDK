@@ -1,4 +1,4 @@
-package com.zjingf.awesomesdk;
+package com.awesome.sdk;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.zjingf.awesomesdk.test", appContext.getPackageName());
+        assertEquals("com.awesome.sdk.test", appContext.getPackageName());
     }
 }

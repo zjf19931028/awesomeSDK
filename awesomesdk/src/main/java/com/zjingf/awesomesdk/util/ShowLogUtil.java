@@ -1,9 +1,9 @@
-package com.zjingf.awesomesdk.util;
+package com.awesome.sdk.util;
 
 import android.content.pm.ApplicationInfo;
 import android.util.Log;
 
-import com.zjingf.awesomesdk.BaseApplication;
+import com.awesome.sdk.BaseApplication;
 
 /**
  * Author: JfangZ
