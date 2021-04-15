@@ -1,6 +1,7 @@
-package com.awesome.sdk;
+package com.zjingf.awesomesdk;
 
 import android.app.Application;
+
 
 /**
  * Author: JfangZ
