@@ -1,4 +1,4 @@
-package com.zjingf.awesomesdk.util;
+package com.awesome.sdk.util;
 
 import android.util.Log;
 
