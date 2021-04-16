@@ -1,4 +1,4 @@
-package com.awesome.sdk.util;
+package com.awesome.sdk.net;
 
 import android.util.Log;
 
@@ -7,28 +7,25 @@ import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
-import rx.Observable;
-import rx.Observer;
-import rx.android.schedulers.AndroidSchedulers;
-import rx.schedulers.Schedulers;
 
 /**
  * Author: JfangZ
  * Email: zhangjingfang@jeejio.com
- * Date: 2021/4/14 15:27
+ * Date: 2021/4/16 11:24
  * Description:
  */
-public enum NetUtil {
-    SINGLETON;
+public class RetrofitCreator {
+    public static final String BASE_URL = "http://www.imooc.com/";
 
-    public <T> T getService(Class<T> clz,String baseUrl) {
-        Retrofit mRetrofit = new Retrofit.Builder()
-                .baseUrl(baseUrl)
-                .addConverterFactory(GsonConverterFactory.create())
-                .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
-                .client(getOkHttpClient())
-                .build();
-        return mRetrofit.create(clz);
+    private static final Retrofit RETROFIT_CLIENT = new Retrofit.Builder()
+            .baseUrl(BASE_URL)
+            .addConverterFactory(GsonConverterFactory.create())
+            .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
+            .client(getOkHttpClient())
+            .build();
+
+    public static RxService getRxService(){
+        return RETROFIT_CLIENT.create(RxService.class);
     }
 
     public static OkHttpClient getOkHttpClient() {
