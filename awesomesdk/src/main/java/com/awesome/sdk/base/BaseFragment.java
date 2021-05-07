@@ -1,4 +1,4 @@
-package com.awesomesdk.base;
+package com.awesome.sdk.base;
 
 /**
  * Author: JfangZ

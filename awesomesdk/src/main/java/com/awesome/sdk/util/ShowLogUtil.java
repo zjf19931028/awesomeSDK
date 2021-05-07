@@ -3,7 +3,7 @@ package com.awesome.sdk.util;
 import android.content.pm.ApplicationInfo;
 import android.util.Log;
 
-import com.awesome.sdk.BaseApplication;
+import com.awesome.sdk.base.BaseApplication;
 
 /**
  * Author: JfangZ

@@ -1,4 +1,4 @@
-package com.awesome.sdk;
+package com.awesome.sdk.base;
 
 import android.app.Application;
 
