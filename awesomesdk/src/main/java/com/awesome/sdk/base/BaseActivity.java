@@ -1,19 +1,16 @@
 package com.awesome.sdk.base;
 
 import android.content.pm.PackageManager;
-import android.widget.BaseAdapter;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
-import com.awesome.sdk.util.ShowLogUtil;
-
-import static com.awesome.sdk.Constant.CAMERA_CODE;
-import static com.awesome.sdk.Constant.LOCATION_CODE;
-import static com.awesome.sdk.Constant.RECORD_AUDIO_CODE;
-import static com.awesome.sdk.Constant.WRITE_EXTERNAL_CODE;
+import static com.awesome.sdk.constant.Constant.CAMERA_CODE;
+import static com.awesome.sdk.constant.Constant.LOCATION_CODE;
+import static com.awesome.sdk.constant.Constant.RECORD_AUDIO_CODE;
+import static com.awesome.sdk.constant.Constant.WRITE_EXTERNAL_CODE;
 
 /**
  * Author: JfangZ

@@ -1,4 +1,4 @@
-package com.awesome.sdk;
+package com.awesome.sdk.constant;
 
 import android.Manifest;
 

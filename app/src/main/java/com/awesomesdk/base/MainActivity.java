@@ -1,22 +1,12 @@
 package com.awesomesdk.base;
 
 import android.os.Bundle;
-import android.util.Log;
 
 import com.awesome.sdk.base.BaseActivity;
-import com.awesome.sdk.net.RxClient;
-import com.awesome.sdk.util.ShowLogUtil;
 import com.awesomesdk.R;
 
-import java.util.List;
-import java.util.WeakHashMap;
-
-import rx.Observer;
-import rx.android.schedulers.AndroidSchedulers;
-import rx.schedulers.Schedulers;
-
-import static com.awesome.sdk.Constant.RECORD_AUDIO_CODE;
-import static com.awesome.sdk.Constant.RECORD_AUDIO_PERMISSION;
+import static com.awesome.sdk.constant.Constant.RECORD_AUDIO_CODE;
+import static com.awesome.sdk.constant.Constant.RECORD_AUDIO_PERMISSION;
 
 public class MainActivity extends BaseActivity {
 
